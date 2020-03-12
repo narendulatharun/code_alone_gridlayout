@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complex grid</title>
+    <style>
+        .grid-container {
+            dispaly: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(100px, );
+            grid gap: 1em;
+        }
+
+        .grid-container>div {
+            background-color: black;
+            padding: 1em;
+        }
+
+        .grid-container>div:nth-child(even) {
+            background-color: lightgray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1">lorem</div>
+    <div id="box2">lorem</div>
+    <div id="box3">lorem</div>
+    <div id="box4">lorem</div>
+    <div id=" box5">lorem</div>
+</body>
+
+</html>
